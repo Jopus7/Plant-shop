@@ -196,6 +196,12 @@ form {
 .centered {
     text-align: center;
 }
+.image {
+  max-height: 20rem;
+}
+.image img {
+  height: 100%;
+}
 
 @media (min-width: 768px) {
   .main-header__nav {
