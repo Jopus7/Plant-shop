@@ -12,7 +12,7 @@ router.get('/add-product', isAuth, adminController.getAddProduct);
 
 router.get('/products', isAuth, adminController.getProducts);
 
- router.post(
+router.post(
   '/add-product',
   [
     body('title')
